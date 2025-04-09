@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  form {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  
+  fieldset {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 15px;
+  }
+  
+  legend {
+    font-weight: bold;
+    color: #444;
+  }
+  
+  table {
+    width: 100%;
+  }
+  
+  td {
+    padding: 8px;
+  }
+  
+  /* Nessa parte foi usada um pouco de inteligência artificial porquê estava com duvida de como usava os inputs, mas queria entender o que estava fazendo. */
+
+  input[type="text"],
+  input[type="password"],
+  input[type="file"],
+  select {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[name="cpf"],
+  input[name="cpf2"],
+  input[name="cep"],
+  input[name="cep2"],
+  input[name="dia"],
+  input[name="mes"],
+  input[name="ano"],
+  input[name="numero"] {
+    width: auto;
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  input[type="submit"],
+  input[type="reset"] {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+  }
+  
+  input[type="reset"] {
+    background-color: #f44336;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  input[type="reset"]:hover {
+    background-color: #d32f2f;
+  }
+  
